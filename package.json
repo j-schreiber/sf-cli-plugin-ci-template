@@ -1,7 +1,7 @@
 {
   "name": "@j-schreiber/sf-cli-plugin-ci-template",
   "description": "Add the description of your SF CLI plugin",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "repository": {
     "type": "https",
     "url": "https://github.com/j-schreiber/sf-cli-plugin-ci-template"
@@ -69,7 +69,6 @@
     "format": "wireit",
     "pretty-quick-staged": "pretty-quick --staged",
     "lint": "wireit",
-    "postpack": "sf-clean --ignore-signing-artifacts",
     "prepack": "sf-prepack",
     "test": "wireit",
     "test:nuts": "nyc mocha \"**/*.nut.ts\" --slow 4500 --timeout 600000 --parallel",
