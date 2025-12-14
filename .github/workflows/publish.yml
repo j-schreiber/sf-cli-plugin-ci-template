@@ -17,6 +17,10 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version: 24
+      - name: Setup Runner Identity
+        run: |
+          git config --global user.email "gha@lietzau-consulting.de"
+          git config --global user.name "Github Actions Runner"
       - name: Yarn Install
         run: yarn install
       - name: Release Package
