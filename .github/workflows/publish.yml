@@ -1,6 +1,7 @@
 name: 'Package Publish'
 
 permissions:
+  id-token: write
   contents: write
   pull-requests: write
 
