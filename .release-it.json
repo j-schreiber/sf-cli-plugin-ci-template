@@ -6,7 +6,6 @@
   },
   "git": {
     "commitMessage": "admin: release v${version}",
-    "commitArgs": ["--no-verify"],
     "push": true,
     "tag": true
   },
@@ -19,5 +18,8 @@
         "name": "angular"
       }
     }
+  },
+  "hooks": {
+    "after:bump": "yarn install"
   }
 }
