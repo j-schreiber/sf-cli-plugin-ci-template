@@ -1,0 +1,16 @@
+name: 'Package Publish'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  release-it:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run Release It
+        run: yarn release
