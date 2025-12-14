@@ -6,6 +6,7 @@
   },
   "git": {
     "commitMessage": "admin: release v${version}",
+    "commitArgs": ["--no-verify"],
     "push": true,
     "tag": true
   },
