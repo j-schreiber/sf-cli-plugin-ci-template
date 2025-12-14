@@ -21,7 +21,6 @@
     }
   },
   "hooks": {
-    "after:bump": "yarn install",
-    "after:npm:release": "yarn install"
+    "after:bump": "yarn install"
   }
 }
