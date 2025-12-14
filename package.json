@@ -1,7 +1,7 @@
 {
   "name": "@j-schreiber/sf-cli-plugin-ci-template",
   "description": "Add the description of your SF CLI plugin",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "repository": {
     "type": "https",
     "url": "https://github.com/j-schreiber/sf-cli-plugin-ci-template"
