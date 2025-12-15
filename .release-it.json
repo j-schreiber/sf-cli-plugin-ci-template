@@ -10,7 +10,7 @@
     "pushArgs": ["--no-verify"],
     "push": true,
     "tag": true,
-    "tagName": "${version}"
+    "tagName": "v${version}"
   },
   "npm": {
     "publish": true,
