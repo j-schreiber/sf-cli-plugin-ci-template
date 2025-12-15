@@ -10,7 +10,8 @@
     "pushArgs": ["--no-verify"],
     "push": true,
     "tag": true,
-    "tagName": "v${version}"
+    "tagName": "v${version}",
+    "requireCleanWorkingDir": false
   },
   "npm": {
     "publish": true,

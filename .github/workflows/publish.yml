@@ -23,6 +23,10 @@ jobs:
           git config --global user.name "Release Bot"
       - name: Yarn Install
         run: yarn install
+      - name: Update Docs
+        run: |
+          yarn readme
+          git add README.md
       - name: Release Package
         run: yarn release
         env:
