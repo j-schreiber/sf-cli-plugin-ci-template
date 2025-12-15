@@ -34,6 +34,6 @@ EXAMPLES
     $ sf hello-world -o MyTargetOrg
 ```
 
-_See code: [src/commands/hello-world.ts](https://github.com/j-schreiber/sf-cli-plugin-ci-template/blob/v0.1.13/src/commands/hello-world.ts)_
+_See code: [src/commands/hello-world.ts](https://github.com/j-schreiber/sf-cli-plugin-ci-template/blob/v0.1.17/src/commands/hello-world.ts)_
 
 <!-- commandsstop -->
