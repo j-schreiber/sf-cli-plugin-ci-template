@@ -19,8 +19,8 @@ jobs:
           node-version: 24
       - name: Setup Runner Identity
         run: |
-          git config --global user.email "gha@lietzau-consulting.de"
-          git config --global user.name "Github Actions Runner"
+          git config --global user.email "gha-release-bot@lietzau-consulting.de"
+          git config --global user.name "Release Bot"
       - name: Yarn Install
         run: yarn install
       - name: Release Package

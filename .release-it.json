@@ -9,7 +9,8 @@
     "commitArgs": ["--no-verify"],
     "pushArgs": ["--no-verify"],
     "push": true,
-    "tag": true
+    "tag": true,
+    "tagName": "${version}"
   },
   "npm": {
     "publish": true,
