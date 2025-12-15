@@ -26,6 +26,6 @@
   },
   "hooks": {
     "after:bump": "yarn install",
-    "after:npm:release": "yarn readme && git add README.md"
+    "before:npm:release": "yarn readme && git add README.md"
   }
 }
