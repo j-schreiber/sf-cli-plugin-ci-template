@@ -14,12 +14,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          fetch-tags: true
       - uses: actions/setup-node@v6
         with:
           node-version: 24
       - name: Setup Runner Identity
         run: |
-          git config --global user.email "gha-release-bot@lietzau-consulting.de"
+          git config --global user.email "gha-release-bot@jannis-schreiber.me"
           git config --global user.name "Release Bot"
       - name: Yarn Install
         run: yarn install
