@@ -1,0 +1,11 @@
+{
+  "check-coverage": true,
+  "lines": 75,
+  "statements": 75,
+  "functions": 75,
+  "branches": 75,
+  "include": ["src/**/*.ts"],
+  "exclude": ["test/**"],
+  "reporter": ["text", "text-summary"],
+  "all": true
+}
